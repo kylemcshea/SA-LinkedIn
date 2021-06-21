@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Next UP </title>
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./plugins/nice-select/nice-select.min.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'DM Sans', sans-serif;">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <div id="loading">
+      <div class="preloader">
+        <img src="./image/preloader.gif" alt="preloader">
+      </div>
+    </div>
+    <!--Site Header Area -->
+    <header class="site-header site-header--menu-center landing-1-menu dark-mode-texts site-header--absolute site-header--sticky">
+      <div class="container-fluid">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <!-- light version logo (logo must be black)-->
+              <img src="image/logo-5.png" alt="" class="light-version-logo">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo-5.png" style="height:80px;width:120px;" alt="" class="dark-version-logo">
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item">
+                  <a href="#" class="nav-link-item">Next Up Platform</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about-us.html.html" class="nav-link-item">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact-us.html" class="nav-link-item">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero Area -->
+    <div class="hero-area hero--area-curve text-center bg-position  position-relative" style="background: url(./image/landing-1/hero-bg-1.png)">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-10" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+            <div class="hero-area-content">
+              <div class="hero-area__title">
+                <h2 class="text-white">Student Athlete Networking
+                  <br/>made easy.</h2>
+              </div>
+              <div class="hero-area__btn">
+                <button class="btn btn--lg bg-secondary focus-reset text-white">Get Started Now</button>
+              </div>
+              <div class="hero-area__image">
+                <img src="./image/landing-1/laptop-img-1.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Brand Area-->
+    <div class="brand-area">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="brand-area-logos d-flex justify-content-center justify-content-xl-between align-items-center flex-wrap">
+              <div class="brand-area__single">
+                <img src="./image/brand-black/l1.png" alt="image" class="w-100" />
+              </div>
+              <div class="brand-area__single">
+                <img src="./image/brand-black/l2.png" alt="" class="w-100">
+              </div>
+              <div class="brand-area__single">
+                <img src="./image/brand-black/l3.png" alt="image" class="w-100">
+              </div>
+              <div class="brand-area__single">
+                <img src="./image/brand-black/l4.png" alt="image" class="w-100">
+              </div>
+              <div class="brand-area__single">
+                <img src="./image/brand-black/l5.png" alt="image" class="w-100">
+              </div>
+              <div class="brand-area__single">
+                <img src="./image//brand-black/l6.png" alt="image" class="w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Area -->
+    <div class="feature-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-8 col-md-9 col-sm-12">
+            <div class="section__heading text-center">
+              <h2>Next Generation Functionality</h2>
+              <p>We get it. You wake up at 6am, and work until midnight. Whether its attending practice, study hall, or lecture.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-10 col-lg-12 ">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-11" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                <div class="card feature--card text-center">
+                  <div class="card__icon">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <div class="card-body">
+                    <div class="card__title">
+                      <h4>Easy Integration</h4>
+                    </div>
+                    <div class="card__content">
+                      <p>Sign up, create a resume/CV, and apply for your first opportunity ALL in under 5 minutes.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6 col-11" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                <div class="card feature--card text-center">
+                  <div class="card__icon card__icon__2">
+                    <i class="fa fa-trophy"></i>
+                  </div>
+                  <div class="card-body">
+                    <div class="card__title">
+                      <h4>Next Generation</h4>
+                    </div>
+                    <div class="card__content">
+                      <p>Build, network, and learn utilizing your unique player card.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6 col-11" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                <div class="card feature--card text-center">
+                  <div class="card__icon card__icon__3">
+                    <i class="fas fa-lock"></i>
+                  </div>
+                  <div class="card-body">
+                    <div class="card__title">
+                      <h4>Exclusivity</h4>
+                    </div>
+                    <div class="card__content">
+                      <p>ONLY Student Athlets are able to utilize the platform</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Area-1 -->
+    <div class="content-area-1">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content">
+              <div class="section__heading">
+                <h2>Provide best results for your applications.</h2>
+                <p>Resume AND Cover Letter Builder implemented into one platform. ALL opportunities are <em>catered</em> to student athletes. All opportunites undergo a serious scanning process to provide legitimate endpoints. What else could you want?</p>
+              </div>
+              <div class="content__btn">
+                <a href="#" class="btn  btn--link focus-reset focus-reset">Check out the platform</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-10 col-sm-12 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content-image-group-1">
+              <div class="image__1">
+                <img class="w-100" src="image/landing-1/chart-img-1.png" alt="image">
+              </div>
+              <div class="image__2">
+                <img src="image/landing-1/chart-small-img-1.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Area-2 -->
+    <div class="content-area-2">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content-image-group-2">
+              <div class="image__1">
+                <img class="w-100" src="image/landing-1/chart-img-2.png" alt="image">
+              </div>
+              <div class="image__2">
+                <img src="image/landing-1/chart-small-img-2.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content">
+              <div class="section__heading">
+                <h2>A unique experience to connect and expand</h2>
+                <p>Coaching positions, virtual internships, alumni networks, and several other ways to build your network</p>
+              </div>
+              <div class="content__btn">
+                <a href="#" class="btn  btn--link focus-reset focus-reset">Check out the platform</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Area-2  -->
+    <div class="feature-area-2">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="feature-area-2-content">
+              <div class="row">
+                <div class="col-xl-10 col-lg-12 col-md-10 col-sm-12">
+                  <div class="section__heading">
+                    <h2>Begin or Build your career with NextUp</h2>
+                    <p>It's junior year and all your teammates have opportunites lined up for the summer? Just went through an unfortunate injury and find yourself with more freetime? Just went through a scenario where playing on a professional level is no longer feasible? Join now and be ahead of the pack.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row feature--item">
+                <div class="col-lg-7">
+                  <div class="widget d-inline-flex align-items-center">
+                    <div class="icon__box">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="22" viewBox="0 0 19 22">
+                        <g>
+                          <g>
+                            <path fill="#416ff4" d="M10.012.313l8.771 5.264a.5.5 0 0 1 0 .858l-9.285 5.573L.213 6.435a.5.5 0 0 1 0-.858L8.983.313a1 1 0 0 1 1.03 0zm8.771 14.607a.501.501 0 0 1 0 .86l-8.77 5.274a.998.998 0 0 1-1.03 0L.213 15.78a.501.501 0 0 1 0-.86l1.202-.723 8.083 4.862 8.083-4.862zM17.581 9.5l1.202.721a.5.5 0 0 1 0 .859l-9.285 5.576L.213 11.08a.5.5 0 0 1 0-.859l1.202-.722 8.083 4.855z" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="widget-body">
+                      <h6>Easy to Build<br>
+                    Resume/CV</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="widget d-inline-flex align-items-center">
+                    <div class="icon__box icon__box__2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="22" viewBox="0 0 16 22">
+                        <g>
+                          <g>
+                            <path fill="#f7e36d" d="M9 9h7L7 22v-9H0L9 0z" />
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="widget-body">
+                      <h6>User Friendly <br>
+                    interface</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="feature-l2-try-btn">
+                    <button class="btn focus-reset">Sign Up for mailing list</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-10 col-sm-12 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="feature-area-2-img-group">
+              <div class="image__1">
+                <img src="image/landing-1/feature-2-img-1.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial Area -->
+    <div class="testimonial-area" style="background: url(./image/landing-9/map.png)">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-xl-4 col-lg-5 col-md-7">
+            <div class="section__heading">
+              <h2>Quotes from our market research</h2>
+              <p>30+ Interviews with Student Athletes attending UMass, Stevens, Robert Morris, Jacksonville, UConn...</p>
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-7 col-md-5">
+            <div class="swiper-navigation text-end">
+              <span class="swipe-prev focus-reset"><i class="fas fa-arrow-left"></i></span>
+              <span class="swipe-next focus-reset"><i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="swiper-container testimonial--slider" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="tesimonial-card">
+                <div class="d-inline-flex">
+                  <img src="image/landing-1/reviewer-1.png" alt="">
+                  <div class="reviewer-designation">
+                    <h4>Kyle McShea</h4>
+                    <span>College Lacrosse @ Stevens Institute</span>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="tesimonial-card">
+                <div class="d-inline-flex">
+                  <img src="image/landing-1/reviewer-2.png" alt="">
+                  <div class="reviewer-designation">
+                    <h4>Kyle McShea</h4>
+                    <span>College Lacrosse @ Stevens Institute</span>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="tesimonial-card">
+                <div class="d-inline-flex">
+                  <img src="image/landing-1/reviewer-3.png" alt="">
+                  <div class="reviewer-designation">
+                    <h4>Kyle McShea</h4>
+                    <span>College Lacrosse @ Stevens Institute</span>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="tesimonial-card">
+                <div class="d-inline-flex">
+                  <img src="image/landing-1/reviewer-1.png" alt="">
+                  <div class="reviewer-designation">
+                    <h4>Kyle McShea</h4>
+                    <span>College Lacrosse @ Stevens Institute</span>
+                  </div>
+                </div>
+                <div class="testimonial-body">
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Integration Area -->
+    <div class="integration-area position-relative" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-xl-6 col-lg-12 col-sm-12 position-static">
+            <div class="integration-area-image-group ">
+              <div class="image__1">
+                <img src="image/landing-1/integrate-bg.png" alt="image">
+              </div>
+              <div class="image__2">
+                <img src="image/landing-1/integrate-img-1.png" alt="image">
+              </div>
+              <div class="image__3">
+                <img src="image/landing-1/integrate-img-2.png" alt="image">
+              </div>
+              <div class="image__4">
+                <img src="image/landing-1/integrate-img-3.png" alt="image">
+              </div>
+              <div class="image__5">
+                <img src="image/landing-1/integrate-img-4.png" alt="image">
+              </div>
+              <div class="image__6">
+                <img src="image/landing-1/integrate-img-5.png" alt="image">
+              </div>
+              <div class="image__7">
+                <img src="image/landing-1/integrate-img-6.png" alt="image">
+              </div>
+              <div class="image__8">
+                <img src="image/landing-1/integrate-img-7.png" alt="image">
+              </div>
+              <div class="image__9">
+                <img src="image/landing-1/integrate-img-8.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-sm-12 col-md-8">
+            <div class="content">
+              <div class="section__heading">
+                <h2>Built with industry standard measures</h2>
+                <p>For Student Athletes by Student Athletes</p>
+              </div>
+              <div class="content__btn">
+                <a href="#" class="btn  btn--link focus-reset focus-reset">Check out the platform</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Area -->
+    <div class="pricing-area-l1-1">
+      <div class="container" id="table-price-value" data-pricing-dynamic data-value-active="monthly">
+        <div class="row justify-content-center text-center">
+          <div class="col-xl-5 col-lg-6 col-md-8">
+            <div class="section__heading">
+              <h2>Sign up For our Mailing List</h2>
+              <p>Development patch notes/updates, first access to the platform, weekly newsletter, and more!</p>
+              <br/>
+              <input type = "text" placeholder="email..."/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area -->
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="border border-footer"></div>
+          </div>
+        </div>
+        <div class="row footer-quick-link-area justify-content-lg-center">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>NEXT UP PLATFORM</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>ABOUT US</h4>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>CONTACT US</h4>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <div class="footer-area-list-item get-in-touch-area">
+              <h4>get in touch</h4>
+              <p>Contact us any time for getting support.</p>
+              <h3>kmcshea@stevens.edu</h3>
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="./plugins/nice-select/jquery.nice-select.min.js"></script>
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="https://porjoton.netlify.app/mekanic/js/waypoints.min.js"></script>
+  <script src="./plugins/counter-up/jquery.counterup.min.js"></script>
+  <script src="./plugins/isotope/isotope.pkgd.min.js"></script>
+  <script src="./plugins/isotope/packery.pkgd.min.js"></script>
+  <script src="./plugins/isotope/image.loaded.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./plugins/swiper/swiper.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

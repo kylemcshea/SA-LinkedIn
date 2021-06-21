@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online Course </title>
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./plugins/nice-select/nice-select.min.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'DM Sans', sans-serif;">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <div id="loading">
+      <div class="preloader">
+        <img src="./image/preloader.gif" alt="preloader">
+      </div>
+    </div>
+    <!--Site Header Area -->
+    <header class="site-header site-header--menu-right landing-9-menu dark-mode-texts site-header--absolute site-header--sticky">
+      <div class="container landing-9">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <!-- light version logo (logo must be black)-->
+              <img src="image/logo/logo-black.png" alt="" class="light-version-logo">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo/logo-white.png" alt="" class="dark-version-logo">
+            </a>
+          </div>
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Landings <i class="fas fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-1">
+                    <li class="sub-menu--item">
+                      <a href="index.html">Software</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="index-2.html">Mobile App</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="index-3.html">Video Conferrence</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="index-4.html">Telemedicine</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="index-5.html">Crypto</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="index-6.html">Web Application</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="index-7.html">IOS App</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="index-8.html">Web Hosting</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="index-9.html">Online Course</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-9">
+                    <li class="sub-menu--item">
+                      <a href="about-us.html">About Us</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Blog<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-10">
+                        <li class="sub-menu--item">
+                          <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="blog-details.html">Blog Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Careers<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-11">
+                        <li class="sub-menu--item">
+                          <a href="career.html">Careers</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="career-details.html">Carreer Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Case Study<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-111">
+                        <li class="sub-menu--item">
+                          <a href="case-studies.html">Case Studies</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="case-details.html">Case Details</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Pricing<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-12">
+                        <li class="sub-menu--item">
+                          <a href="pricing-1.html">Pricing-01</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="pricing-2.html">Pricing-02</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="pricing-3.html">Pricing-03</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Shop<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-13">
+                        <li class="sub-menu--item">
+                          <a href="shop.html">Shop</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="shop-single.html">Shop Single Item</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="cart.html">Cart</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="checkout.html">Checkout</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-14">
+                        <li class="sub-menu--item">
+                          <a href="sign-in.html">Sign In</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="sign-up.html">Sign Up</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="reset-pass.html">Reset Password</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="sub-menu" id="submenu-15">
+                        <li class="sub-menu--item">
+                          <a href="faq.html">FAQ</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="terms-conditions.html">Terms & Conditions</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="404.html">404 Error</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="coming-soon.html">Coming Soon</a>
+                        </li>
+                        <li class="sub-menu--item">
+                          <a href="thank-you.html">Thank You</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item nav-item-has-children has-megamenu">
+                  <a href="#" class="nav-link-item drop-trigger">Portfolios <i class="fas fa-angle-down"></i></a>
+                  <div class="sub-menu megamenu  megadropdown-center  d-lg-flex" id="submenu-100">
+                    <ul class="col-lg-12 row-lg list-unstyled py-lg-7">
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <h3>Gallery Style</h3>
+                          <a href="gallery-2-in-container.html" class="mega-drop-menu-item sub-menu--item">Two Column Grid</a>
+                          <a href="gallery-3-in-container.html" class="mega-drop-menu-item sub-menu--item">Three Column Grid</a>
+                          <a href="gallery-4-in-container.html" class="mega-drop-menu-item sub-menu--item">Four Column Grid</a>
+                          <a href="gallery-2-in-container-full.html" class="mega-drop-menu-item sub-menu--item">Two Column Wide</a>
+                          <a href="gallery-3-full.html" class="mega-drop-menu-item sub-menu--item">Three Column Wide</a>
+                          <a href="gallery-4-full.html" class="mega-drop-menu-item sub-menu--item">Four Column Wide</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <h3>Classic Grid Style</h3>
+                          <a href="classic-2-in-container.html" class="mega-drop-menu-item sub-menu--item">Two Column Grid</a>
+                          <a href="classic-3-in-container.html" class="mega-drop-menu-item sub-menu--item">Three Column Grid</a>
+                          <a href="classic-4-in-container.html" class="mega-drop-menu-item sub-menu--item">Four Column Grid</a>
+                          <a href="classic-2-in-container-full.html" class="mega-drop-menu-item sub-menu--item">Two Column Wide</a>
+                          <a href="classic-3-full.html" class="mega-drop-menu-item sub-menu--item">Three Column Wide</a>
+                          <a href="classic-4-full.html" class="mega-drop-menu-item sub-menu--item">Four Column Wide</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <h3>Masonry Style</h3>
+                          <a href="masonry-3-in-container.html" class="mega-drop-menu-item sub-menu--item">Three Column in Grid </a>
+                          <a href="masonry-4-in-container.html" class="mega-drop-menu-item sub-menu--item">Four Column in Grid</a>
+                          <a href="masonry-3-full.html" class="mega-drop-menu-item sub-menu--item">Three Column Wide</a>
+                          <a href="masonry-4-full.html" class="mega-drop-menu-item sub-menu--item">Four Column Wide</a>
+                          <a href="masonry-3-classic.html" class="mega-drop-menu-item sub-menu--item d-block">Three Column Classic</a>
+                          <a href="masonry-4-classic.html" class="mega-drop-menu-item sub-menu--item d-block">Four Column Classic</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-3">
+                        <div class="single-dropdown-block">
+                          <h3>Single Project</h3>
+                          <a href="portfolio-details-1.html" class="mega-drop-menu-item sub-menu--item d-block">Portfolio-details-01</a>
+                          <a href="portfolio-details-2.html" class="mega-drop-menu-item sub-menu--item d-block">Portfolio-details-02</a>
+                          <a href="portfolio-details-3.html" class="mega-drop-menu-item sub-menu--item d-block">Portfolio-details-03</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="blog.html" class="nav-link-item">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://uxtheme.net/product-support/" class="nav-link-item">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero Area -->
+    <div class="hero-area-l9 bg-bunting-aprx position-relative overflow-hidden">
+      <div class="container">
+        <div class="row position-lg-static justify-content-lg-start justify-content-md-center">
+          <div class="col-lg-4 col-md-9  position-lg-static">
+            <div class="hero-image bg-position " style="background-image: url(./image/landing-9/hero-banner.png);">
+              <div class="hero-img-inner">
+                <img class="w-100" src="./image/landing-9/hero-banner.png" alt="image">
+              </div>
+              <div class="video-icon">
+                <a data-fancybox="" href="https://www.youtube.com/embed/9yc1lfFZX-I"><i
+                class="fas fa-play font-size-7"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-7 col-md-9" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+            <div class="content content--l9-1">
+              <div class="content--l9-1__text-box">
+                <div class="badge">
+                  <h6 class="bg-bunting"><span class="badge-offer text-white bg-primary">Offer</span><span
+                  class="text-porcelain">The offer is aviable for only first few customers</span></h6>
+                </div>
+                <h2>Learn design in
+                  a new way</h2>
+                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. </p>
+              </div>
+              <div class="content--l9-1__form">
+                <form action="#" class="d-sm-flex">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address">
+                  <button class="btn">Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Area -->
+    <div class="feature-area-l9-1">
+      <div class="container">
+        <div class="row feature-area-l9-1--items">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="widget widget--feature-l9-1">
+              <div class="d-flex">
+                <div class="widget--feature-l9-1__icon ">
+                  <i class="far fa-user"></i>
+                </div>
+                <div class="widget--feature-l9-1__content">
+                  <h4>Expert Instrator</h4>
+                  <p>Having 15 years of experience in design field. Design is my passion and sharing my knowledge is my
+                    love.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="widget widget--feature-l9-1">
+              <div class="d-flex">
+                <div class="widget--feature-l9-1__icon ">
+                  <i class="far fa-clock"></i>
+                </div>
+                <div class="widget--feature-l9-1__content">
+                  <h4>Lifetime Access</h4>
+                  <p>Having 15 years of experience in design field. Design is my passion and sharing my knowledge is my
+                    love.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="widget widget--feature-l9-1">
+              <div class="d-flex">
+                <div class="widget--feature-l9-1__icon ">
+                  <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="widget--feature-l9-1__content">
+                  <h4>Money Back Grantee </h4>
+                  <p>Having 15 years of experience in design field. Design is my passion and sharing my knowledge is my
+                    love.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Area -->
+    <div class="feature-area-l9-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-9">
+            <div class="section__heading-2">
+              <h2>Featured Lessons </h2>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-3">
+            <div class="l9-slider-arrow-1 text-end">
+              <i class="prev9  fas fa-arrow-left slick-arrow"></i>
+              <i class="next9 fas fa-arrow-right slick-arrow"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row feature-items">
+          <div class="col-12">
+            <div class="feature-slider-l9-1">
+              <div class="single-item focus-reset" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                <div class="card card--feature-l9-2">
+                  <div class="card--feature-l9-2__image">
+                    <img class="w-100" src="image/landing-9/lesson-1.png" alt="image">
+                  </div>
+                  <div class="card--feature-l9-2__content">
+                    <span>Lesson 01</span>
+                    <h4>Color theory 101 : Learn how to use brand colors </h4>
+                    <div class="widget widget--lecture d-flex align-items-center">
+                      <div class="widget--lecture-item">
+                        <div class="d-flex align-items-center">
+                          <div class="lecture-icon">
+                            <i class="fas fa-book-open"></i>
+                          </div>
+                          <div class="lecture-text">
+                            <span>13 Lectures</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="widget--lecture-item">
+                        <div class="d-flex align-items-center">
+                          <div class="lecture-time-icon">
+                            <i class="far fa-clock"></i>
+                          </div>
+                          <div class="lecture-time-text">
+                            <span>3h 20min</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item focus-reset" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                <div class="card card--feature-l9-2">
+                  <div class="card--feature-l9-2__image">
+                    <img class="w-100" src="image/landing-9/lesson-2.png" alt="image">
+                  </div>
+                  <div class="card--feature-l9-2__content">
+                    <span class="text-secondary">Lesson 02</span>
+                    <h4>Affordances: Designing Intuitive
+                      User Interfaces </h4>
+                    <div class="widget widget--lecture d-flex align-items-center">
+                      <div class="widget--lecture-item">
+                        <div class="d-flex align-items-center">
+                          <div class="lecture-icon">
+                            <i class="fas fa-book-open"></i>
+                          </div>
+                          <div class="lecture-text">
+                            <span>20 Lectures</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="widget--lecture-item">
+                        <div class="d-flex align-items-center">
+                          <div class="lecture-time-icon">
+                            <i class="far fa-clock"></i>
+                          </div>
+                          <div class="lecture-time-text">
+                            <span>5h 20min</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item focus-reset" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                <div class="card card--feature-l9-2">
+                  <div class="card--feature-l9-2__image">
+                    <img class="w-100" src="image/landing-9/lesson-3.png" alt="image">
+                  </div>
+                  <div class="card--feature-l9-2__content">
+                    <span class="text-rajah">Lesson 03</span>
+                    <h4>How to Create a UX Portfolio
+                      without any project</h4>
+                    <div class="widget widget--lecture d-flex align-items-center">
+                      <div class="widget--lecture-item">
+                        <div class="d-flex align-items-center">
+                          <div class="lecture-icon">
+                            <i class="fas fa-book-open"></i>
+                          </div>
+                          <div class="lecture-text">
+                            <span>25 Lectures</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="widget--lecture-item">
+                        <div class="d-flex align-items-center">
+                          <div class="lecture-time-icon">
+                            <i class="far fa-clock"></i>
+                          </div>
+                          <div class="lecture-time-text">
+                            <span>7h 20min</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item focus-reset" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                <div class="card card--feature-l9-2">
+                  <div class="card--feature-l9-2__image">
+                    <img class="w-100" src="image/landing-9/lesson-3.png" alt="image">
+                  </div>
+                  <div class="card--feature-l9-2__content">
+                    <span class="text-rajah">Lesson 03</span>
+                    <h4>How to Create a UX Portfolio
+                      without any project</h4>
+                    <div class="widget widget--lecture d-flex align-items-center">
+                      <div class="widget--lecture-item">
+                        <div class="d-flex align-items-center">
+                          <div class="lecture-icon">
+                            <i class="fas fa-book-open"></i>
+                          </div>
+                          <div class="lecture-text">
+                            <span>25 Lectures</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="widget--lecture-item">
+                        <div class="d-flex align-items-center">
+                          <div class="lecture-time-icon">
+                            <i class="far fa-clock"></i>
+                          </div>
+                          <div class="lecture-time-text">
+                            <span>7h 20min</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+            <div class="text-center">
+              <div class="explore-lessons-btn">
+                <button class="btn">Explore All Lessons</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Area -->
+    <div class="content-area-l9-1">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-xl-4 col-lg-4 col-md-8 col-sm-8" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content-area-l9-1--image">
+              <img src="image/landing-9/content-img-1.png" alt="image">
+            </div>
+          </div>
+          <div class="offset-xl-2 col-xl-6 offset-lg-1 col-lg-7 col-md-9" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content-l9-1">
+              <div class="section__heading-2">
+                <h2>Land your dream job
+                  faster, without experience.</h2>
+                <p>Completely synergize resource taxing relationships via premier niche markets. </p>
+              </div>
+              <div class="content-l9-1__service">
+                <ul class="p-0">
+                  <li class="d-flex align-items-start">
+                    <div class="icon">
+                      <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="content">
+                      <h4>100% Moneyback Grantee </h4>
+                      <p>Efficiently unleash cross-media information without cross-media value.</p>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <div class="icon">
+                      <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="content">
+                      <h4>World-class Education</h4>
+                      <p>Podcasting operational change management inside of workflows to establish. </p>
+                    </div>
+                  </li>
+                </ul>
+                <button class="btn btn-reset">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Area -->
+    <div class="content-area-l9-2">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6 col-md-9 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content-l9-2">
+              <div class="section__heading-2">
+                <h2>Hi, I am David Henricks.?Product Designer.</h2>
+                <p>Having 15 years of experience in design field. Design is my passion and sharing my knowledge is my love.
+                </p>
+              </div>
+              <div class="content-l9-2__service">
+                <div class="expertise-item row p-0">
+                  <div class="col-lg-12">
+                    <div class="expertise-head">
+                      <h4>Expertise area :</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="expertise-single d-flex align-items-center">
+                      <div class="icon-area">
+                        <i class="fas fa-check"></i>
+                      </div>
+                      <div class="content">
+                        <h4>User Experience Design</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="expertise-single  d-flex align-items-center">
+                      <div class="icon-area">
+                        <i class="fas fa-check"></i>
+                      </div>
+                      <div class="content">
+                        <h4>User Interface Design</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="expertise-single  d-flex align-items-center">
+                      <div class="icon-area">
+                        <i class="fas fa-check"></i>
+                      </div>
+                      <div class="content">
+                        <h4>Prototyping</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="expertise-single  d-flex align-items-center">
+                      <div class="icon-area">
+                        <i class="fas fa-check"></i>
+                      </div>
+                      <div class="content">
+                        <h4>Micro Interaction</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="expertise-single  d-flex align-items-center">
+                      <div class="icon-area">
+                        <i class="fas fa-check"></i>
+                      </div>
+                      <div class="content">
+                        <h4>User Research</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content-l9-2__work">
+                <h4>Previously work at :</h4>
+                <ul class="list-unstyled p-0 d-flex flex-wrap">
+                  <li><img src="image/landing-9/google-icon.png" alt="google"></li>
+                  <li><img src="image/landing-9/invision.png" alt="linkedin"></li>
+                  <li><img src="image/landing-9/slack.png" alt="slack"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="offset-lg-2 col-lg-4 col-md-8 col-sm-8 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content-area-l9-2--image">
+              <img src="image/landing-9/content-img-2.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial Area -->
+    <div class="testimonial-area-l9-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10">
+            <div class="section__heading-2 text-center">
+              <h2>Love form students</h2>
+              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+            <div class="testimonial-area-l9-1--content bg-position " style="background: url(./image/landing-9/map.png)">
+              <div class="testimonial-l9-image-group">
+                <div class="image-1">
+                  <img src="image/landing-9/testimonial-1.png" alt="image">
+                </div>
+                <div class="image-2">
+                  <img src="image/landing-9/testimonial-2.png" alt="image">
+                </div>
+                <div class="image-3">
+                  <img src="image/landing-9/testimonial-3.png" alt="image">
+                </div>
+                <div class="image-4">
+                  <img src="image/landing-9/testimonial-4.png" alt="image">
+                </div>
+                <div class="image-5">
+                  <img src="image/landing-9/testimonial-5.png" alt="image">
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 col-md-9 col-sm-12">
+                  <div class="slider-l9-main">
+                    <div class="l9-slider-arrow-2">
+                      <i class="prev9-1 fas fa-angle-left slick-arrow"></i>
+                      <i class="next9-1 fas fa-angle-right slick-arrow"></i>
+                    </div>
+                    <div class="testimonial-slider-l9-1">
+                      <div class="single-item focus-reset text-center">
+                        <div class="slider-image">
+                          <img src="image/landing-9/testimonial-6.png" alt="image">
+                        </div>
+                        <div class="slider-content">
+                          <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                          </div>
+                          <p>"John helped us deliver a successful update to a responsive design. His willingness to see the job through is a great."</p>
+                        </div>
+                        <div class="user-identity">
+                          <span>- Ann Franks</span>
+                        </div>
+                      </div>
+                      <div class="single-item focus-reset text-center">
+                        <div class="slider-image">
+                          <img src="image/landing-9/testimonial-5.png" alt="image">
+                        </div>
+                        <div class="slider-content">
+                          <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                          </div>
+                          <p>"John helped us deliver a successful update to a responsive design. His willingness to see the job through is a great."</p>
+                        </div>
+                        <div class="user-identity">
+                          <span>- Ann Franks</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact form Area -->
+    <div class="contact-l9-1 bg-bunting-aprx">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="contact-l9-1__form-area">
+              <div class="contact-l9-1__heading text-center">
+                <h2>Get started for only $99</h2>
+                <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless
+                  key</p>
+              </div>
+              <form action="/">
+                <div class="contact-l9-1__input">
+                  <div class="form-group name-area">
+                    <input type="text" class="form-control" placeholder="Enter your name">
+                  </div>
+                  <div class="form-group email-area">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                  </div>
+                  <div class="begin-advance-input d-sm-flex justify-content-between">
+                    <div class="form-group beginer">
+                      <input type="text" class="form-control" placeholder="Beginer">
+                      <div class="check-form">
+                        <label for="terms-check" class="check-input-control d-flex mb-0">
+                          <input class="d-none" type="checkbox" id="terms-check">
+                          <span class="checkbox"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group advanced">
+                      <input type="text" class="form-control" placeholder="Advanced">
+                      <div class="check-form">
+                        <label for="terms-check-2" class="check-input-control d-flex mb-0">
+                          <input class="d-none" type="checkbox" id="terms-check-2">
+                          <span class="checkbox"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="get-start-btn text-center">
+                    <button class="btn">Get Started Now</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQ Area -->
+    <div class="faq-area-l9-1 bg-bunting-aprx">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="section__heading-2">
+              <h2>Frequently <br class="d-md-block d-none">
+            asked questions ?</h2>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="section__heading-2">
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="faq-l9-1">
+              <ul class="accordion p-0">
+                <li>
+                  <a>What I will learn after completing this course?</a>
+                  <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+                  </p>
+                </li>
+                <li>
+                  <a>Do you give support when necessary?</a>
+                  <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+                  </p>
+                </li>
+                <li>
+                  <a>How can I make the payment?</a>
+                  <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="offset-lg-1 col-lg-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="faq-l9-1">
+              <ul class="accordion p-0">
+                <li>
+                  <a>Do you offer Moneyback Guarantee?</a>
+                  <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+                  </p>
+                </li>
+                <li>
+                  <a>When can I earn money after this course?</a>
+                  <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+                  </p>
+                </li>
+                <li>
+                  <a>Can I share this access to my friends?</a>
+                  <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="cta-area-l9-1">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-xl-6 col-lg-8 col-md-7">
+                  <div class="cta-area-l9-1__content">
+                    <h2>10K+ Students take this course.
+                      What are you waiting for?</h2>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-4 col-md-5">
+                  <div class="cta-area-l9-1__btn text-md-end">
+                    <button class="btn">Get Started Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area -->
+    <footer class="footer-area footer--area-2 footer--area-9">
+      <div class="container">
+        <div class="row footer-quick-link-area footer-quick-link-area-9 justify-content-lg-center">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>Theme Pages</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Home Pages</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">About Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>Company Bio</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Sales Tools Catalog</a></li>
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>Partnership</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Peseller Program</a></li>
+                <li><a href="#">AI Labs</a></li>
+                <li><a href="#">Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>Pages</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>Career</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Opening Post</a></li>
+                <li><a href="#">Apply Aplication</a></li>
+                <li><a href="#">Partner</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-2-border bg-bunting-aprx"></div>
+    <div class="copy-right-area bg-bunting-aprx text-sm-start text-center">
+      <div class="container">
+        <div class="row justify-content-md-between justify-content-center align-items-center">
+          <div class="col-md-6 col-sm-5">
+            <div class="copy-right-text">
+              <p class="text-lynch mb-0">&copy; 2020, All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-7">
+            <div class="social-link d-flex align-items-center">
+              <h4 class="text-lynch">Follow us on : </h4>
+              <ul class="list-unstyled d-flex flex-wrap">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="./plugins/nice-select/jquery.nice-select.min.js"></script>
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="https://porjoton.netlify.app/mekanic/js/waypoints.min.js"></script>
+  <script src="./plugins/counter-up/jquery.counterup.min.js"></script>
+  <script src="./plugins/isotope/isotope.pkgd.min.js"></script>
+  <script src="./plugins/isotope/packery.pkgd.min.js"></script>
+  <script src="./plugins/isotope/image.loaded.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
